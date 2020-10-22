@@ -2,7 +2,7 @@ require 'rest-client'
 require 'json'
 
 class GetGoogleCoffeeDetailsService
-    def initialize(place_id)
+    def initialize(google_place_id)
         @google_place_id = google_place_id
     end
 
